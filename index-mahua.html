@@ -23,7 +23,7 @@
                 document.write("☆" + "　")
 
             // 第 i 行中间打印 2*(line-i)+1 个 ★
-            for (var k = 1; k < 2 * (lines - i); k = k + 1)
+            for (var k = 1; k < 2 * (lines - i); k++)
                 document.write("★" + "　")
 
             // 第 i 行右侧打印 i-1 个 ☆
@@ -38,7 +38,7 @@
         for (var i = lines - 2; i > -1; i--) {
             for (var j = 0; j < i; j++)
                 document.write("☆" + "　")
-            for (var k = 1; k < 2 * (lines - i); k = k + 1)
+            for (var k = 1; k < 2 * (lines - i); k++)
                 document.write("★" + "　")
             for (var j = 0; j < i; j++)
                 document.write("☆" + "　")
